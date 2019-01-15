@@ -1,5 +1,5 @@
-# webpack-4x-demo
-关于4.0的脚手架探究
+# Performance
+基于webpack4x上优化实践 webpack-4x-demo
 # 1，异步（懒）加载的实现
 > react  vue中的路由
 * Code Spliting 使用 require.ensure 或 dynamic import
