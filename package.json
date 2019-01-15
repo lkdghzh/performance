@@ -1,0 +1,52 @@
+{
+  "name": "webpack-4x-demo",
+  "version": "1.0.0",
+  "description": "关于4.0的脚手架探究",
+  "main": "index.js",
+  "scripts": {
+    "build-dev": "export NODE_ENV=development && ./node_modules/webpack/bin/webpack.js --config ./script/webpack.dev.js",
+    "build": "export NODE_ENV=production && ./node_modules/webpack/bin/webpack.js --config ./script/webpack.prod.js",
+    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --config ./script/webpack.dev.js",
+    "dev": "node script/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lkdghzh/webpack-4x-demo.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "like",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lkdghzh/webpack-4x-demo/issues"
+  },
+  "homepage": "https://github.com/lkdghzh/webpack-4x-demo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-decorators": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "autoprefixer": "^9.3.1",
+    "babel-loader": "^8.0.4",
+    "chalk": "^2.4.2",
+    "clean-webpack-plugin": "^1.0.0",
+    "css-loader": "^1.0.1",
+    "express": "^4.16.4",
+    "file-loader": "^2.0.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.4.5",
+    "opn": "^5.4.0",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-middleware": "^3.4.0",
+    "webpack-hot-middleware": "^2.24.3",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {}
+}
